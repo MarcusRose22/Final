@@ -13,7 +13,7 @@
     
     <tbody>
         <tr>
-          <td class="img-pos"><img src="../../assets/Chiu.jpg"></td>
+          <td class="img-pos"><img style="width:400px; height:400px;"  src="../../assets/Chiu.jpg"></td>
           <td class="table-word">邱誌勇 (Chih-Yung Chiu)<h2>博士/教授</h2>
           <h3><b>學歷：</b>美國俄亥俄大學跨科際藝術系博士<br>
               <b>專長：</b>新媒體藝術美學、藝術評論、電影電視美學與科技文化研究<br>
@@ -24,7 +24,7 @@
 
     <tbody>
         <tr>
-          <td class="img-pos"><img src="../../assets/You.png"></td>
+          <td class="img-pro"><img style="width:400px; height:400px;" src="../../assets/You.png"></td>
           <td class="table-word">邱誌勇 (Chih-Yung Chiu)<h2>博士/助理教授</h2>
           <h3><b>學歷：</b>國立臺灣大學資訊工程所博士<br>
               <b>專長：</b>人機互動（Human-Computer Interaction）、普及計算（Ubiquitous Computing）、<br>無線感測網路（Sensor Networking Systems）<br>
@@ -34,7 +34,7 @@
 
     <tbody>
         <tr>
-          <td class="img-pos"><img src="../../assets/Chi.png"></td>
+          <td class="img-pro"><img style="width:400px; height:400px;" src="../../assets/Chi.png"></td>
           <td class="table-word">蔡奇宏 (Chi-Hung Tsai) <h2>講師/科技藝術業界顧問教師</h2>
           <h3><b>學歷：</b>國立台北藝術大學 科技藝術研究所碩士<br>
               <b>專長：</b>光動藝術、互動裝置藝術、策展規劃與執行<br>
@@ -81,9 +81,8 @@ animation: fadeIn ease 2s;
 
 /* css */
 
-img{
-width:400px;
-height:400px; 
+.img-pos{
+ 
 vertical-align: middle;
 }
 
@@ -145,6 +144,7 @@ h2{
 }
 .img-pos{
   text-align: right;
+  
 }
 
 h3{
