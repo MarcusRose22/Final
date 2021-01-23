@@ -7,7 +7,7 @@
     </h2>
 </div> 
 
-<hr   size="2px" align="center" width="50%" color="white">
+<hr class="Home_hr"  size="2px" align="center" width="50%" color="white">
 
 <div class="demo"><!-- 表格 -->
 
@@ -95,6 +95,7 @@ vertical-align: middle;
 
 .title
 {  
+  margin-top: 15vh;
   font-family: Syncopate, "微軟正黑體", sans-serif;
   text-align: center;
   max-width: 50%;
@@ -103,7 +104,7 @@ vertical-align: middle;
   
 }
 
-hr{
+.Home_hr{
   margin-top: 15vh;
 }
 

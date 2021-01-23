@@ -7,7 +7,17 @@
     <div class="text">
     <h1 class="fade-in">NTHU IPTA .Est in 2018</h1>
     </div>
+
+    <hr class="link_hr"  size="2px" align="center" width="58%" color="white">
+
+    <router-link class="link" style="margin-left:22.5%" to="/">Home</router-link> 
+    <router-link class="link" style="margin-left:5%" to="/Enroll">Enroll</router-link> 
+    <router-link class="link" style="margin-left:5%" to="/Professor">Professor</router-link>   
+    <router-link class="link" style="margin-left:5%" to="/Tech_Art">Tech-Art</router-link>
+    <router-link class="link" style="margin-left:5%" to="/Contact">Contact</router-link>
     
+    <hr class="link_hr"  size="2px" align="center" width="58%" color="white">
+
      <router-view></router-view>
   </div>
 </template>
@@ -113,5 +123,26 @@ iframe {
   font-size: 40px;
   text-align: center;
 }
+
+.link_hr{
+  position: relative;
+}
+
+.link{
+   font-family: Syncopate, "微軟正黑體", sans-serif;
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+ 
+}
+.link:hover{
+  color: yellow;
+    transition:color 1s;
+    -moz-transition:color 1s;
+    -webkit-transition:color 1s;
+    -o-transition:color 1s;   
+}
+
+
 
 </style>
